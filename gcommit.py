@@ -47,6 +47,9 @@ CI_TYPE = "ci"       # Editing file for Continuous Integration
 global VERSION_TYPE
 VERSION_TYPE = "ver" # Versioning
 
+global ADD_TYPE
+ADD_TYPE = "add" # to add basic files, that still does not create feature
+
 global COMMIT_TYPES
 COMMIT_TYPES = [INIT_TYPE
                ,FIX_TYPE
@@ -57,7 +60,8 @@ COMMIT_TYPES = [INIT_TYPE
                ,BUILD_TYPE
                ,STYLE_TYPE
                ,CI_TYPE
-               ,VERSION_TYPE]
+               ,VERSION_TYPE
+               ,ADD_TYPE]
 
 
 class CommitsParser:

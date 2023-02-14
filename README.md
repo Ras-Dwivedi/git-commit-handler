@@ -102,6 +102,6 @@ If you want to generate changelog in other formats for example HTML page, This s
 # Install on a *nix OS
 Assuming that python 2 or 3 is installed.  
 ```sh
-$ chmod a+x pcommit.py
-$ sudo ln -s $PWD/pcommit.py /usr/local/bin/pcommit
+$ chmod a+x gcommit.py
+$ sudo ln -s $PWD/pcommit.py /usr/local/bin/gcommit
 ```
